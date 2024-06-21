@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link perdon video</title>
+
+    <style>
+        body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: #ffa7f2;
+        font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+        display: grid;
+        place-content: center;
+        height: 100dvh;
+        width: 100%;
+        a{
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            font-size: 20px;
+            span{
+                color: black;
+                text-decoration: underline;
+                &:hover{
+                    color: rgba(24, 24, 24, 0.666);
+                }
+            }
+        }
+      }
+    </style>
+</head>
+<body>
+    <a href="./perdon.html" id="downloadLink" class="downloadLink" download>Presiona <span>aqui</span> si no se te descarga automaticamente</a>
+
+    <script>
+        const link = document.getElementById("downloadLink")
+
+        // document.addEventListener("DOMContentLoaded", () => link.click())
+    </script>
+</body>
+</html> 
